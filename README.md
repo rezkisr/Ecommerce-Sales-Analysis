@@ -158,7 +158,7 @@ The project uses cleaned ecommerce tables, including `ecommerce_sales_analytics_
 * Order counts use distinct `order_id` values. Product and category analyses use item-level records.
 * Overall revenue is taken from the order-level table; product and category revenue are calculated from the item-level table.
 * **Data limitation:** summed monetary values in the order-level and item-level tables do not reconcile, even though their distinct order counts match. Results from the two tables should not be combined as if reconciled. This discrepancy should be resolved before using the figures for financial reporting.
-* Profit margin is calculated from aggregated profit and revenue: `SUM(profit) / SUM(net_sales)`. It is not the average of row-level margins.
+* Although the dataset includes a profit margin percentage column, profit margin is calculated from aggregated profit and revenue: `SUM(profit) / SUM(net_sales)`, so the result reflects the combined performance of each group.
 * Discount bands are based on item discount percentages: **No Discount** = 0; **Low** = greater than 0 and up to 25%; **Medium** = greater than 25% and up to 50%; **High** = greater than 50%.
 * Return-reason comparisons exclude blank reasons and refer only to returns with a recorded reason.
 
