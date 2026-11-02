@@ -132,23 +132,23 @@ The Power BI dashboard presents selected analyses across sales, customer intelli
 
 ### Sales & Profitability
 
-![Sales & Profitability](4.Images\02_Sales_&_Profitability.png)
+![Sales & Profitability](4.Images/02_Sales_&_Profitability.png)
 
 ### Customer Intelligence
 
-![Customer Intelligence](4.Images\03_Customer_Intelligence.png)
+![Customer Intelligence](4.Images/03_Customer_Intelligence.png)
 
 ### Product Performance
 
-![Product Performance](4.Images\04_Product_Performance.png)
+![Product Performance](4.Images/04_Product_Performance.png)
 
 ### Marketing Performance
 
-![Marketing Performance](4.Images\05_Marketing_Performance.png)
+![Marketing Performance](4.Images/05_Marketing_Performance.png)
 
 ### Logistic & Returns
 
-![Logistic & Returns](4.Images\06_Logistic_&_Returns.png)
+![Logistic & Returns](4.Images/06_Logistic_&_Returns.png)
 
 
 ## Dataset and Metric Notes
